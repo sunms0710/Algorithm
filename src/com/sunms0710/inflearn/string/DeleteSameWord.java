@@ -1,25 +1,22 @@
 package com.sunms0710.inflearn.string;
 
 import java.util.Scanner;
-//문장 속 단어
-public class FindLongStr {
+
+//중복 문자 제거
+public class DeleteSameWord {
     public static String solution(String str){
         String answer = "";
-        int m = -1;
-        String[] s = str.split(" ");
-        for (String x : s) {
-            int len = x.length();
-            if(len > m){
-                m = len;
-                answer = x;
+        for(int i = 0; i < str.length(); i++){
+            if(i == str.indexOf(str.charAt(i))){
+                answer += str.charAt(i);
             }
         }
-
         return answer;
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+        String str = sc.next();
         System.out.println(solution(str));
     }
 }

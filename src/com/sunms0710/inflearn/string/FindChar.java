@@ -1,7 +1,7 @@
 package com.sunms0710.inflearn.string;
 
 import java.util.Scanner;
-
+//문자 찾기
 public class FindChar {
     public static int solution(String str, char c){
         int count = 0;

@@ -1,7 +1,7 @@
 package com.sunms0710.inflearn.string;
 
 import java.util.Scanner;
-
+//대소문자 변환
 public class ConvertUpLowChar {
     public static String solution(String str){
         String answer = "";

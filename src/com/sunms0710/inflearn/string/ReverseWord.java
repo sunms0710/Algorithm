@@ -2,7 +2,7 @@ package com.sunms0710.inflearn.string;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//단어 뒤집기
 public class ReverseWord {
     public static ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer = new ArrayList<>();
