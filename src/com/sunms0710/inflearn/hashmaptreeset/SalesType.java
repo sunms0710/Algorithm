@@ -1,4 +1,4 @@
-package com.sunms0710.inflearn.hashmaptreeSet;
+package com.sunms0710.inflearn.hashmaptreeset;
 
 import java.util.ArrayList;
 import java.util.HashMap;
